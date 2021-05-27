@@ -9,11 +9,11 @@ const personalMovieDB = {
     privat: false
 };
 
-const filmAnswer = prompt("Один из последних фильмов?",""),
-      reitingAnswer = prompt("На сколько его оцените?"," "),
+const a = prompt("Один из последних фильмов?",""),
+      b = prompt("На сколько его оцените?"," "),
       c = prompt("Один из последних фильмов?",""),
       d = prompt("На сколько его оцените?"," ");
 
-personalMovieDB.movies[filmAnswer] = reitingAnswer;
+personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 console.log(personalMovieDB);
